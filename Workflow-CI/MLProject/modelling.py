@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 mlflow.set_experiment("Basic_Model_Muhammad_Dhiyaul_Atha")
 
 def train_basic_model():
-    DATA_DIR = "Membangun_model/belajar_preprocessing"
+    DATA_DIR = "belajar_preprocessing"
     
     X_train = pd.read_csv(os.path.join(DATA_DIR, 'X_train.csv'))
     X_test = pd.read_csv(os.path.join(DATA_DIR, 'X_test.csv'))
